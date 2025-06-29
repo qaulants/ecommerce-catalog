@@ -1,0 +1,207 @@
+.product-display {
+  text-align: center;
+  height: 550px;
+}
+
+.card {
+  display: inline-flex;
+  gap: 60px;
+  padding: 3rem 3rem;
+  border-radius: 10px;
+  width: 60%;
+  /* max-width: 800px; */
+  margin: 5rem auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  align-items: center;
+  text-align: left;
+}
+.card2 {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border-radius: 10px;
+  padding: 3.4rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 730px;
+  height: 400px;
+}
+
+.sad {
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  pointer-events: none;
+  /* tambahkan ini */
+}
+
+.sad-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.empty-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 100px;
+  /* jarak antara teks dan tombol */
+}
+
+.product-image {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.desc2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-group {
+  margin-top: 15px;
+}
+
+.btn{
+  padding: 0.5rem 1rem;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  padding: 0.5rem 1rem;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-outline-men {
+  background-color: white;
+  border: solid 2px#002772;
+  font-weight: 600;
+  color: #002772;
+}
+
+.btn-outline-women {
+  background-color: white;
+  border: solid 2px#720060;
+  font-weight: 600;
+  color: #720060;
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+  font-weight: 600;
+  border: solid 2px#720060;
+}
+
+.btn-blue {
+  background-color: #002772;
+  color: white;
+  font-weight: 600;
+  border: solid 2px#002772;
+}
+
+.bg-women {
+  background-color: #FDE2FF;
+}
+
+.bg-men {
+  background-color: #D6E6FF;
+}
+
+.text-purple {
+  color: #720060;
+}
+
+.text-blue {
+  color: #002772;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #555;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.empty {
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.bg-unavailable {
+  background-color: #ddd;
+}
+
+.rating {
+  margin: 0 3px;
+}
+
+.dot {
+  font-size: 1.8rem;
+  color: #ccc;
+}
+
+.filled.purple {
+  color: #720060;
+}
+
+.filled.blue {
+  color: #002772;
+}
+
+.desc {
+  font-size: 1rem;
+  margin: 25px 0;
+  text-align: left;
+  padding-bottom: 4rem;
+  padding-right: 2rem;
+}
+.custom-line{
+  border: none;
+  height: 1px;
+  background-color: #cdcbcb;
+  
+}
+
+.price {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
